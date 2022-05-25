@@ -22,8 +22,12 @@
             />
          <span class="caption">Photo by <a href="https://unsplash.com/@mensroom?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mike Marquez</a> on <a href="https://unsplash.com/s/photos/cheese-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
          <div id="paypal-button-container"></div>
+         <button id="button" type="button">Pay now</button>
       </div>
+      <!--
       <script src="https://www.paypal.com/sdk/js?client-id=AWx1gpCaWDcvW0Tfxwf6gqMuvRkxVyhYPKJIEB6KVO3AdxxZJVnNaFxbQkemez5VwrqpkcMbRN8ZGJ-j"></script>
+      -->
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=alc_client1&components=card-fields,buttons&intent=capture&debug=true"></script>
       <script src="./index.js"></script>
    </body>
 </html>
