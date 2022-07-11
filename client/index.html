@@ -21,9 +21,39 @@
             alt="Swiss Cheese plant"
             />
          <span class="caption">Photo by <a href="https://unsplash.com/@mensroom?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mike Marquez</a> on <a href="https://unsplash.com/s/photos/cheese-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+         <p>
+            <button type="button">A</button>
+            <button type="button">B</button>
+            <button type="button">C</button>
+         </p>
+         <p>
+            <input type="text" placeholder="test input"/>
+         </p>
+         <p>
+            <input type="text" placeholder="test input"/>
+         </p>
          <div id="paypal-button-container"></div>
+         <p>
+            <div id="paypal-card-field-container"></div>
+            <button id="pay-now-button" type="button">Pay now</button>
+         </p>
+         <div id="multi-card-fields">
+            <div id="card-name-field-container"></div>
+            <div id="card-number-field-container"></div>
+            <div id="card-expiry-field-container"></div>
+            <div id="card-cvv-field-container"></div>
+            <div id="card-postal-code-container"></div>
+            <button id="submit-button" type="button">Submit</button>
+        </div>
       </div>
+      <!--
       <script src="https://www.paypal.com/sdk/js?client-id=AWx1gpCaWDcvW0Tfxwf6gqMuvRkxVyhYPKJIEB6KVO3AdxxZJVnNaFxbQkemez5VwrqpkcMbRN8ZGJ-j"></script>
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=alc_client1&components=card-fields,buttons&intent=capture&debug=true"></script>
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=B_AF7iNYDLbxkdU12xnJWgVZDmfKv7khjdgZ6mMG89YNVD2mH3dE-ypPQxh3WW8eDYSUJUOY0i__WTicdo&components=card-fields,buttons&intent=capture&debug=true"></script>
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=Ae96woToTpFrWc7YGLd6aPIiKow5-Dy8WidBXtsKYSWe9m-FylfHLn8wKIDWuFrBl6U977n3oDF580O9&components=card-fields,buttons&intent=capture"></script>
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=B_AVLQBSM6Hw4ohRJaEuZGmG6RLKpTAHQw2oyqOEkGOHQbwzwlPpBJRF3cd2MjFegYWHUg0b5GrZRwdOIQ&components=card-fields,buttons&intent=capture"></script>
+      -->
+      <script src="http://localhost.paypal.com:8000/sdk/js?client-id=B_A3Nk8jo-3tRnmAWKP1vmp7hhd4oSTLUSzyS3A3WvmOPWc2syHRjoA68GmQpjiPVc3X2sexAwMQaNn2Lk&components=card-fields,buttons&intent=capture"></script>
       <script src="./index.js"></script>
    </body>
 </html>
